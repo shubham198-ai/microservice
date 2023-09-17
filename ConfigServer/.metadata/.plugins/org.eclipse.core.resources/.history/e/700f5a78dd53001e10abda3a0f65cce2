@@ -1,0 +1,12 @@
+server:
+  port: 8087
+  
+spring:
+  application:
+     name: CONFFIG-SERVER
+  cloud:
+   config:
+    server:
+       git:
+         uri: https://github.com/shubham198-ai/micro-project-config/tree/main
+       clone-on-start: true

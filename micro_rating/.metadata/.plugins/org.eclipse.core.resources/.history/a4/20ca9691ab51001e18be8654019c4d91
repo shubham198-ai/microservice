@@ -1,0 +1,10 @@
+package com.example.microservices.model;
+@Entity
+public class Rating {
+     @Id
+	private String ratingId;
+	private String userId;
+	private int rating;
+	private String hotelId;
+	private String feedback;
+}

@@ -1,0 +1,9 @@
+package com.example.microservices.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.example.microservices.model.Rating;
+
+public interface RatingRepo extends JpaRepository<Rating, String> {
+
+}

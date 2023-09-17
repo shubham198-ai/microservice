@@ -1,0 +1,13 @@
+package microservicesConfigServer;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class DemoonconfigserverApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(DemoonconfigserverApplication.class, args);
+	}
+
+}
